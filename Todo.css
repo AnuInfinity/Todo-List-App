@@ -1,0 +1,57 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+     text-align: center;
+      margin: 2rem;
+      color: #333;
+      font-family: Arial, sans-serif;
+      border: 5px solid orange;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(234, 81, 148, 0.73);
+      background-color: #2a5f02;
+      width: 500px;
+      min-height: 190px;
+   
+    
+}
+.todo{
+    text-align: center;
+      margin: 2rem;
+      color: '#333';
+      font-family: 'Arial, sans-serif';
+}
+.input{
+    box-shadow:1rem solid #a907a9;
+    color: rgb(11, 15, 15);
+    height:25px;
+    margin-left:2rem ;
+}
+.button{
+    border: none;
+    background-color:rgb(202, 128, 17);
+    color: #fff;
+    border-radius: 8px;
+    height: 30px;
+    margin-right: 3rem;
+}
+.button :active{
+    background-color: #fff;
+    color: black;
+    border: black;
+}
+.heading{
+    text-transform: uppercase;
+    text-decoration: double;
+    
+    font-size:28px ;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+    color: black ;
+    align-content: center;
+    margin-left: 70px;
+}
